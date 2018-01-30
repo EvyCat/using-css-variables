@@ -2,7 +2,7 @@
   --color-primary: #f39;
   --border-radius: 14px 0 14px 0;
   --font-primary: sans-serif;
-  --font-secondary: "Roboto Slab", serif;
+  --font-secondary: "Roboto Slab", sans-serif;
 }
 
 html {
@@ -12,7 +12,7 @@ html {
 .card {
   max-width: 24em;
   border: 3px solid var(--color-primary);
-  border-radius: 4px var(--border-radius);
+  border-radius: var(--border-radius);
 }
 
 .card-title {
